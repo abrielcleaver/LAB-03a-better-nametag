@@ -1,113 +1,100 @@
-
-body {
-    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
-
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
-    
-    --header-height: 80px;
-    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
-    --gutter: 30px;
-    --footer-height: 25px;
-    
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+.website-header {
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif; 
+    text-indent: 2%;
 }
 
-main {
+.name-tag-header {
+    width: 400px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 10px;
+    margin-left: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#name-tag {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-bottom: calc(var(--footer-height));
 }
-
-section {
-    background-color: var(--color5);
-    width: 1000px;
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
-
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+   line-height: 70px;
 }
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-
 
 h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
+    color: white;
+    font-weight: normal;
+}
+h1, h2 {
+    margin: 0;
+}
+main {
+    margin-left: 250px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 400px;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-.gutter-right {
-    margin-right: 20px;
+#first-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
+#pronouns {
+    padding-top: 2px;
+    padding-bottom: 10px;
 }
 
-header img {
-    height: var(--header-height);
-}
+#name-tag-footer {
+    margin-left: 250px;
+    width: 400px;
+    background-color: red;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 20px 20px;
 
-p {
-    margin: var(--gutter);
 }
-  
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: var(--footer-height);
+#controls {
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 6px;
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
+    justify-content: center;
 }
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
 
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
+#input-p {
+    margin-left: 200px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
 
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }
+#button {
+    margin-top: 10px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+}
+.website-footer {
+    margin-top: 500px;
+    margin-bottom: 0px;
+    margin-left: 83%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; 
+}
