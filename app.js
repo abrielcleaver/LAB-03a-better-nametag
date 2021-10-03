@@ -2,9 +2,8 @@
 
 const firstName = document.getElementById('first-name');
 const button = document.getElementById('generate-entry');
-const newName = document.getElementById('new-name');
+const newNameInput = document.getElementById('new-name-input');
 const textBoxP = document.getElementById('text-box-p')
-
 
 // initialize global state
 
@@ -19,7 +18,7 @@ button.addEventListener('click', ()=> {
   // get the value of the input
   // replace the text in the nametag with the value
   
-  let nameValue = newName.value;
+  let nameValue = newNameInput.value;
   firstName.textContent = nameValue;
 
   let pronounValue = textBoxP.value;
