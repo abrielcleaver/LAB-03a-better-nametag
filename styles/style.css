@@ -125,10 +125,35 @@ justify-content: center;
     display: grid;
     grid-template-rows: auto;
     justify-content: center;
+    font-family: "Montserrat", sans-serif;
 }
 
+#new-color-btns {
+    display: flex;
+    justify-content: space-evenly;   
+}
 
+#gray-btn {
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
 
+}
+
+#blue-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#orange-btn {
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
 
 .website-footer {
     margin-top: 500px;
