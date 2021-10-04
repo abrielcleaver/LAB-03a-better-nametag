@@ -19,7 +19,6 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif; 
     margin-top: 10px;
-    margin-left: 250px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -45,7 +44,6 @@ h1, h2 {
 }
 
 main {
-    margin-left: 250px;
     padding-top: 40px;
     padding-bottom: 40px;
     width: 400px;
@@ -65,7 +63,6 @@ main {
 }
 
 #name-tag-footer {
-    margin-left: 250px;
     width: 400px;
     background-color: red;
     padding-bottom: 40px;
@@ -80,7 +77,6 @@ justify-content: center;
 
 #controls {
     margin-top: 10px;
-    margin-left: 200px;
     margin-bottom: 6px;
     display: flex;
     justify-content: center;
@@ -102,29 +98,37 @@ justify-content: center;
 }
 
 .input-p {
-    margin-left: 200px;
-    margin-top: 5px;
     display: flex;
     justify-content: center;
 }
 
 #text-box-p {
-    background-color:darkgray;
+    background-color:rgb(169, 169, 169);
     border-radius: 5px;
     margin-left: 5px;
     margin-right: 50px;
 }
 
+.update-btn {
+    display: flex;
+    justify-content: center;
+}
 #generate-entry {
     border-radius: 30px;
     font-family: "Montserrat", sans-serif;
     color: red;
     background-color:ghostwhite;
-    margin-top: 10px;
-    margin-left: 450px;
-    display: flex;
-    justify-content: center; 
+    margin-top: 10px; 
 }
+
+.new-nametag-color {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+
+
 
 .website-footer {
     margin-top: 500px;
